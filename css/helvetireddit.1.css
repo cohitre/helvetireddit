@@ -7,6 +7,10 @@ a.title {
   font-family: 'Helvetica Neue', Helvetica-Neue, Helvetica, 'MgOpen Moderna', sans-serif !important;
 }
 
+a.title:visited {
+  color: #344 !important;
+}
+
 .sitetable {
   padding: 10px  !important;
   margin: 0px 20px !important;
@@ -34,7 +38,15 @@ a.title {
   line-height: 40px;
 }
 
-#header-bottom-left a {
+#header-bottom-right {
+  line-height: 40px;
+  background-color: transparent;
+  top: 17px !important;
+  border: 0px;
+  padding: 0px;
+}
+
+#header-bottom-left a, #header-bottom-right a {
   color: #999 !important;
   background-color: transparent !important;
   border-width: 0 !important;
@@ -63,4 +75,24 @@ a#header-img-a:before {
 p.nextprev {
   color: #999;
   font-size: 150%;
+  text-align: right;
+  margin: 20px; 
+}
+
+.thing {
+  margin: 20px 0;
+}
+
+.side {
+  background-color: transparent !important;
+}
+
+#search {
+  margin-bottom: 10px !important;
+}
+
+#search input {
+  -webkit-border-radius: 10px !important;
+  border: 1px solid #DDD !important;
+  background-color: #fff !important;
 }

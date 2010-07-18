@@ -1,9 +1,12 @@
 // ==UserScript==
-// @name        Helvetireddit
-// @description Helvetireader style for Reddit that also removes a lot of features so you probably won't like it!
-// @include     http://*.reddit.com/*
-// @include     http://reddit.com/*
-// @author      Helvetireddit by Jon Hicks (http://www.hicksdesign.co.uk) with favicon override by MkFly
+// @name        helvetireddit
+// @namespace   cohitre.com
+// @description Helvetireader inspired style for Reddit.
+// @include     https://*.reddit.com*
+// @include     https://reddit.com*
+// @include     http://*.reddit.com*
+// @include     http://reddit.com*
+// @author      helvetireddit by cohitre. Inspired by Helvetireader by Jon Hicks (http://www.hicksdesign.co.uk).
 // ==/UserScript==
 
 /*
